@@ -37,3 +37,14 @@ def test_1():
 if __name__ == '__main__':
     test_1()
 
+# Ошибка при запуске кода
+#"C:\Users\Алексей\PycharmProjects\Iterators. Generators. Yield\.venv\Scripts\python.exe" "C:\Users\Алексей\PycharmProjects\Iterators. Generators. Yield\Iterators.py"
+#Traceback (most recent call last):
+# File "C:\Users\Алексей\PycharmProjects\Iterators. Generators. Yield\Iterators.py", line 38, in <module>
+ #   test_1()
+  #File "C:\Users\Алексей\PycharmProjects\Iterators. Generators. Yield\Iterators.py", line 27, in test_1
+   # for flat_iterator_item, check_item in zip(
+    #                                      ^^^^
+#TypeError: FlatIterator.__next__() missing 1 required positional argument: 'item'
+#
+#Process finished with exit code 1
